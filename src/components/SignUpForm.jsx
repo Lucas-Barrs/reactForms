@@ -27,7 +27,7 @@ export default function SignUpForm({setToken}) {
 
     }catch(error){
     setError(error.message);
-    console.log(error);
+    console.error(error);
   }}
   return (
   <>
